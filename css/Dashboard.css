@@ -1,0 +1,120 @@
+body{
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+/* star navbar */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.form-control{
+    padding: .375rem 1.75rem !important;
+    border-radius: 1.375rem !important;
+}
+/* icon search  */
+.search{
+    position: absolute;
+    top:8px;
+    right: 5px;
+}
+.sidebar
+{
+    position: fixed;
+    left: 0;
+    background-color: green;
+    height: 95vh;
+    margin-top:5vh;
+    width: 19%;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: #fff;
+    width: 100% !important;
+     display: inline-block !important;
+}
+.para {
+display: flex;
+justify-content: center;
+align-items: flex-end;
+bottom: 15px;
+text-align: center;
+right: 12%;
+color: #fff;
+position: absolute;
+}
+/* end */
+.header-content1 {
+    width: 100%;
+}
+.header-content1 .header1 ul li i{
+color: rgb(12, 123, 12);
+font-size: 1.4rem;
+}
+
+.header-content1 .header1 ul li p span{
+    font-weight: 700;
+}
+.header1{
+    width: 80%;
+}
+.content2{
+    align-items: center;
+    margin-right: 1%;
+}
+table {
+     caption-side: top !important; 
+}
+.table>:not(caption)>*>* {
+    padding: 0.5rem 2.5rem !important;
+}
+.box-circle{
+   width: 250px;
+   height: 200px;
+   background-color: #fff;
+   border-radius: 4px;
+   margin: auto;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border:2px solid #000 ;
+    border-top: 9px solid #42b72a;
+    border-right: 8px solid #42b72a;
+    border-bottom: 9px solid #42b72a;
+    border-radius: 50%;
+    top: 21px;
+    left: 40px;
+    margin: auto 15px;
+}
+.c1{
+    width: 110px;
+    height: 110px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-top:8px;
+    margin-right: 9px;    
+}
+.position-absolute{
+    top: 35px;
+    left: 26px;
+}
+
+/* icons nav  */
+.sidebar-menu ul li a{
+    margin: 1rem;
+    padding-top: 1.9rem;
+    
+}
+.sidebar-menu ul li a span i{
+    color: #000;
+    font-size: 1.2rem;
+    margin: 5px;
+    margin-top: 35px;
+    margin-right: 6px;
+    padding-top: 40px;
+}
